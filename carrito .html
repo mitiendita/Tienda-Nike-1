@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Pagina De Noticia De Tecnologia</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header>
+    <h1>Tienda DepoJersey</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="productos.html">Productos</a></li>
+      </ul>
+    </nav>
+    <section class="busqueda">
+      <input type="text" id="buscador"
+        placeholder="buscar producto🔍..."
+        oninput="filtrar producto()"/>
+
+    </section>
+  </header>
+<main>
+<section-class="carrito-lista">
+<h2>🛍️Tu Carrito De Compras🛍️</h2>
+<ul id="lista-carrito"></ul>
+<p id="total-carrito" class="total">Total:$0.00</p>
+<button id="btn-confirmar" class="btn-confirmar">✅ Confirmar Compra</button>
+</section>
+
+</main>
+<footer>
+<p>&copy; 2025 Mi Tienda</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
